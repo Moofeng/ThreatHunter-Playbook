@@ -1,4 +1,4 @@
-# The ThreatHunter-Playbook
+# 威胁猎人手册
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/OTRF/ThreatHunter-Playbook/master)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
@@ -7,43 +7,46 @@
 
 <img src="docs/images/logo/logo.png" width=200>
 
-The Threat Hunter Playbook is a community-based open source project developed to share threat hunting concepts and aid the development of techniques and hypothesis for hunting campaigns by leveraging security event logs from diverse operating systems. This project provides not only information about detections, but also other very important activites when developing analytics such as data documentation, data modeling and even data quality assessments.
+威胁猎人手册是一个基于社区的开源项目，旨在通过利用不同操作系统的安全事件日志，分享威胁狩猎的概念，帮助发展狩猎活动的技术和假说。该项目不仅提供有关威胁检测的信息，而且还提供了做数据分析时非常重要的步骤，如数据文档、数据建模，甚至包括数据质量评估。
 
-In addition, the analytics shared in this project represent specific chains of events exclusively at the host and network level and in a SQL-like format so that you can take them and apply the logic in your preferred tool or query format. The analytics provided in this repo also follow the structure of [MITRE ATT&CK](https://attack.mitre.org/wiki/Main_Page) categorizing post-compromise adversary behavior in tactical groups.
+此外，在这个项目中共享的分析方法，以类SQL语句的格式呈现了主机和网络级别特定的攻击链，以便您可以使用自己喜欢的工具或查询格式来应用它们的检测逻辑。本报告提供的检测方法也遵循[MITRE ATT&CK](https://attack.mitre.org/wiki/Main_Page)的结构，对战术组中的后渗透攻击行为进行了分类。
 
-Finally, the project documents detection strategies in the form of [interactive notebooks](https://github.com/hunters-forge/notebooks-forge#what-is-a-notebook) to provide an easy and flexible way to visualize the expected output and be able to run the analytics against [pre-recorded mordor datasets](https://github.com/OTRF/mordor) through [BinderHub](https://mybinder.readthedocs.io/en/latest/index.html) cloud computing environments.
+最后，该项目以[交互式笔记本](https://github.com/hunters-forge/notebooks-forge#what-is-a-notebook)的形式记录检测策略，以提供一种简单而灵活的方式来可视化预期输出，并能够通过[BinderHub](https://mybinder.readthedocs.io/en/latest/index.html)的云计算环境对预记录的[安全数据集](https://github.com/Moofeng/Security-Datasets)进行分析。
 
-# Goals
+# 目标
 
-* Expedite the development of techniques an hypothesis for hunting campaigns.
-* Help Threat Hunters understand patterns of behavior observed during post-exploitation.
-* Reduce the number of false positives while hunting by providing more context around suspicious events.
-* Share real-time analytics validation examples through cloud computing environments for free.
-* Distribute Threat Hunting concepts and processes around the world for free.
-* Map pre-recorded datasets to adversarial techniques.
-* Accelerate infosec lerning through open source resources.
+* 促进威胁狩猎相关技术和假说的发展
+* 帮助威胁猎人理解后渗透攻击中观察到的行为模式
+* 通过提供更多围绕可疑事件的上下文数据，减少误报的数量
+* 通过免费的云计算环境分享实时的分析验证案例
+* 在全球范围内共享并传递威胁狩猎的概念和流程
+* 将预记录的数据集匹配到相应的攻击技术
+* 通过开源项目促进信息安全的学习
 
-# A Jupyter Book
+# 交互式笔记本
 
-I converted the whole repo into a book for you to read and follow as part of the documentation
+我把整个项目转换成了一本书，方便大家阅读并复现文档内的各个步骤
 
 * https://threathunterplaybook.com/
 
-# Author
+# 作者
 
 Roberto Rodriguez [@Cyb3rWard0g](https://twitter.com/Cyb3rWard0g)
 
-# Official Committers
+# 译者
+* 慕长风 [@Moofeng](https://twitter.com/M0ofeng)
 
-* Jose Luis Rodriguez [@Cyb3rPandaH](https://twitter.com/Cyb3rPandaH) is adding his expertise in data science to it.
+# 官方提交者
 
-# Contributing
+* Jose Luis Rodriguez [@Cyb3rPandaH](https://twitter.com/Cyb3rPandaH) 加入了他在数据科学方面的专业知识
 
-Can't wait to see other hunters' pull requests with awesome ideas to detect advanced patterns of behavior. The more chains of events you contribute the better this playbook will be for the community.
-* Submit Pull requests following the TEMPLATE format.
-* Highly recommend to test your chains of events or provide references to back it up before submitting a pull request (Article, whitepaper, hunter notes, etc).
-  * Hunter notes are very useful and can help explaining why you would hunt for specific chains of events.
-* Feel free to submit pull requests to enhance hunting techniques. #SharingIsCaring
+# 贡献
+
+希望能看到其他威胁猎人用一些很棒的想法来检测攻击者的行为模式并提交pr，你贡献的案例越多，手册对社区的帮助也会更大
+* 请按照TEMPLATE格式提交pr
+* 强烈建议在提交pr(文章，白皮书，狩猎笔记等)前测试你的攻击链或提供参考资料
+  * 狩猎笔记是非常有用的，可以帮助解释为什么你要分析特定的事件
+* 请随意提交pr，以提高威胁狩猎技术，分享即是关怀
 
 # To-Do
 
